@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brandsides | Digital Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">brandsides<span>.</span></div>
+        
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#portfolio">Works</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1 class="ml11">
+                <span class="text-wrapper">
+                  <span class="line line1"></span>
+                  <span class="letters">Hello to Brandsides</span>
+                </span>
+            </h1>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="section-reveal">
+                <h2 class="section-title">OUR LATEST WORK</h2>
+                <p class="section-desc">Explore our recent projects where creativity meets strategy—driving traffic, engagement, and conversions.</p>
+                <button class="black-btn"><span>↗</span> See More</button>
+            </div>
+
+            <div class="work-grid">
+                <div class="work-card section-reveal">
+                    <div class="card-image">
+                        <img src="Project 01.jpg">
+                    </div>
+                    <div class="arrow-icon">↗</div>
+                </div>
+                <div class="work-card section-reveal">
+                    <div class="card-image">
+                        <img src="Project 02.png">
+                    </div>
+                    <div class="arrow-icon">↗</div>
+                </div>
+                <div class="work-card section-reveal">
+                    <div class="card-image">
+                        <img src="Project 03.png">
+                    </div>
+                    <div class="arrow-icon">↗</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-box section-reveal">
+                <div class="contact-info">
+                    <h2 class="contact-title">GET IN TOUCH</h2>
+                    <p>Let's build the future together.</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name"> 
+                    </div> 
+                    <div class="form-row">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+                    <input type="email" placeholder="Email Address">
+                    <textarea placeholder="How Can We Help?"></textarea>
+                    <button type="submit" class="submit-btn">Submit Request</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Brandsides Studio.</p>
+        <div class="footer-arrow" title="Back to top">↗</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
